@@ -42,7 +42,7 @@ export default class VpnStack extends Stack {
     //   instanceType: ec2.InstanceType.of(ec2.InstanceClass.T3, ec2.InstanceSize.NANO),
     //   machineImage: ec2.MachineImage.latestAmazonLinux()
     // })
-    // // bastionHost.allowSshAccessFrom(ec2.Peer.ipv4('94.203.155.114/32'))
+    // // bastionHost.allowSshAccessFrom(ec2.Peer.ipv4(''))
     // bastionHost.instance.instance.addPropertyOverride('KeyName', 'bastion-key-name')
     //
   }
