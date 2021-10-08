@@ -38,4 +38,4 @@ CNAME www         stokilo.com.s3-website.me-south-1.amazonaws.com
 ### Cloudflare DNS settings for image storage
 
 CNAME dev-img     dev-img.stokilo.com.s3-website.me-south-1.amazonaws.com
-CNAME prod-img    img.stokilo.com.s3-website.me-south-1.amazonaws.com
+CNAME prod-img    prod-img.stokilo.com.s3-website.me-south-1.amazonaws.com

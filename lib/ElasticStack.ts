@@ -44,8 +44,8 @@ export default class ElasticStack extends Stack {
     sharedReferences.esDomain = new es.Domain(this, 'ElasticDomain', domainProps)
 
     const awssWsHostedZone = route53.HostedZone.fromHostedZoneAttributes(this, 'AwssWsHostedZone', {
-      zoneName: 'awss.ws',
-      hostedZoneId: 'Z06491372INE6OGQIKMIR'
+      zoneName: 'REPLACE_ME_WITH_YUOR_HOSTED_ZONE_NAME',
+      hostedZoneId: 'REPLACE_ME_WITH_YUOR_HOSTED_ZONE_ID'
     })
 
     const esRecord = new route53.CnameRecord(this, 'es.awss.ws', {
