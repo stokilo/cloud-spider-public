@@ -163,8 +163,6 @@ export default class StaticWebsiteStack extends Stack {
       conditions: {
         IpAddress: {
           'aws:SourceIp': [
-            '5.30.183.10',
-
             '2400:cb00::/32',
             '2606:4700::/32',
             '2803:f800::/32',
