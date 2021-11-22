@@ -1,5 +1,9 @@
 #### What is it?
 
+See new version here:
+
+https://github.com/stokilo/pelefele.com-public
+
 Cloud spider real estate application. Sample serverless application implemented using serverless stack and NuxtJs.
 
 The project configures two domains, one for API (awss.ws) and one for webapp (stokilo.com). These domains are configured for DEV and PROD
